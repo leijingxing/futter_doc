@@ -131,5 +131,27 @@ val body = response.body()
 val string = body?.string()
 ```
 
+## kotlin实现单例
+
+```kotlin
+object A {
+    fun a() {
+        println("a")
+    }
+}
+```
+
+## kotlin实现扩展函数
+
+```kotlin
+fun String.a() {
+    println("a")
+}
+
+fun main() {
+    "a".a()
+}
+```
+
 
 
